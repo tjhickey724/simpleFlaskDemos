@@ -1,0 +1,21 @@
+{% extends "fancylayout.html" %}
+
+{% block content %}
+    <div class="jumbotron">
+    <h1>Welcome to Tim's Bootstrap page</h1>
+        <p class="text-warning">
+            This shows how to add style to an HTML site using bootstrap
+        </p>
+    </div>
+    <div class="text-center">
+    <a class="btn btn-primary" href="bio">See my bio</a>
+    <a class="btn btn-success" href="factors/60">Factor a number</a>
+    <a class="btn btn-info" href="calculate">Factor a number a different way!</a>
+    <a class="btn btn-danger" href="randj/jealous">Look up words in Romeo and Juliet</a>
+    <a class="btn btn-warning" href="/">Plain version of this page</a>
+        <hr>
+        <img class = "img-circle"
+                 src="http://www.cs.brandeis.edu/~tim/hickey-apr08.gif"
+                 alt="Tim Hickey from Apr 2008">
+    </div>
+{% endblock %}
